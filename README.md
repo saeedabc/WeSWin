@@ -125,3 +125,9 @@ If you use `WeSWin` in your research, please cite our paper:
     abstract = "We introduce a novel Transformer-based method for document segmentation, tailored for practical, real-world applications. This method utilizes overlapping text sequences with a unique position-aware weighting mechanism to enhance segmentation accuracy. Through comprehensive experiments on both public and proprietary datasets, we demonstrate significant improvements, establishing new state-of-the-art standards by achieving up to a 10{\%} increase in segmentation F1 score compared to existing methods. Additionally, we explore the application of our segmentation method in downstream retrieval-augmented question answering tasks, where it improves the quality of generated responses by 5{\%} while achieving up to four times greater efficiency. These results underscore our model`s potential as a robust and scalable solution for real-world text segmentation challenges."
 }
 ```
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
