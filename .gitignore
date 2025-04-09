@@ -137,6 +137,7 @@ logs/
 # Custom
 *.code-workspace
 *.vscode
+**.DS_Store
 
 checkpoints/
 datasets/

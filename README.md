@@ -1,5 +1,12 @@
 # WeSWin Chunker
-This is the official codebase for the WeSWin Chunker, introduced in the paper **"[Neural Document Segmentation Using Weighted Sliding Windows with Transformer Encoders](https://aclanthology.org/2025.coling-industry.67/)"** (COLING 2025: Industry Track). We introduce a novel Transformer-based method for document segmentation, tailored for practical, real-world applications. This method utilizes overlapping text sequences with a unique position-aware weighting mechanism to enhance text segmentation accuracy.
+This is the official codebase for the **WeSWin Chunker**, introduced in the paper "[Neural Document Segmentation Using <u>We</u>ighted <u>S</u>liding <u>Win</u>dows with Transformer Encoders](https://aclanthology.org/2025.coling-industry.67/)" (COLING 2025: Industry Track). We present a novel Transformer-based approach to document segmentation, designed for practical, real-world applications. Our method leverages overlapping text sequences combined with a position-aware weighting mechanism to enhance segmentation accuracy and efficiency, especially for long documents. WeSWin achieves up to a 10% improvement in F1 score over state-of-the-art methods across multiple segmentation benchmarks. Furthermore, integrating WeSWin into downstream retrieval-augmented question answering improves GPTScore by 5%, while delivering up to 4× greater efficiency compared to LLM-based counterparts.
+
+<p align="center">
+  <img src="assets/img/overview.jpg" alt="WeSWin Inference Pipeline" width="800">
+</p>
+<p align="center">
+  <em>WeSWin inference pipeline</em>
+</p>
 
 ---
 
